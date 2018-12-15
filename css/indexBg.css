@@ -1,0 +1,75 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*第二屏*/
+.slide:nth-child(1) {
+	background: url(../images/sea02.jpg) no-repeat center bottom;
+	background-size: 100%;
+}
+#slide01 {
+	color: #fff;
+	width: 1000px;
+	height: 500px;
+	margin: 600px auto;
+}
+#slide01 p{
+	font-size: 18px;
+	padding: 10px;
+	text-indent: 2em;
+}
+#slide01 img {
+	position: absolute;
+	left: 780px;
+	top: 280px;
+	margin: 50px auto ;
+	display: inline-block;
+	height: 240px;
+	width: 240px;
+	border-radius: 50%;
+}
+#slide01 img:hover {
+	box-shadow: 0 0 30px 2px #066BA6;
+}
+.slide:nth-child(2) {
+	background: url(../images/bg01.jpg) no-repeat center bottom;
+	background-size: 100%;
+}
+.slide:nth-child(3) {
+	background: url(../images/bg03.jpg) no-repeat center bottom;
+	background-size: 100%;
+}
+.slide:nth-child(4) {
+	background: url(../images/bg05.jpg) no-repeat center bottom;
+	background-size: 100%;
+}
+
+
+/*第三屏*/
+.screen03 {
+	background: url(../images/sea03.jpg) no-repeat center bottom ;
+	background-size: 100%;
+}
+
+
+/*第四屏*/
+.screen04 {
+	background: url(../images/bg03.jpg) no-repeat center bottom;
+	background-size: 100%;
+}
+
+
+/*第五屏*/
+.screen05 {
+	background: url(../images/bg05.jpg) no-repeat center -100px;
+	background-size: 100%;
+}
+
+/*第六屏*/
+.screen06 {
+	background: url(../images/3d03.jpg) no-repeat center bottom;
+	background-size: 100%;
+}

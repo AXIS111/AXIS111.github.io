@@ -1,0 +1,55 @@
+.exp {
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+	color: #f40;
+	position: absolute;
+	top: 240px;
+	left: 400px;
+	font-weight: 700;
+	border-left: 10px solid #ccc;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.exp1,.exp2,.exp3 {
+	width: 1000px;
+	height: 150px;
+	display: block;
+}
+.content04 h3 {
+	position: absolute;
+	top: 180px;
+	left: 360px;
+	font-size: 30px;
+	color: #f00;
+}
+.content04 h4 {
+	color: #fff;
+	font-size: 20px;
+}
+.content04 h4:hover {
+	color:#f40;
+}
+.content04 span {
+	color: #00B050;
+}
+.content04 p{
+	color: #C8EBFA;
+}
+.content04 input {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	left: -20px;
+}
+.content04 input:nth-child(4){
+	top:20px;
+}
+.content04 input:nth-child(8){
+	top:115px;
+}
+.content04 input:nth-child(13){
+	top:205px;
+}
