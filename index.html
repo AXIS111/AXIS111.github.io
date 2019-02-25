@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
@@ -17,211 +18,220 @@
 	<script src="js/skills.js"></script>
 	<script src="js/Accordion.js"></script>
 </head>
+
 <body>
 	<!-- 音乐播放部分 -->
-  <audio src="music/02.mp3" controls="controls" autoplay id="music" hidden> 
-  </audio>
-  <button id="a">Music</button>
+	<audio src="music/02.mp3" controls="controls" autoplay id="music" hidden>
+	</audio>
+	<button id="a">Music</button>
 
-  <!-- 左上角简历 -->
-  <div id="resume">
-  	<a href="#">
-  		<img src="images/person.jpg" alt="" width="70">
-		<div class="my_resume">
-			<span>Axis</span>
-			<i>'s resume</i>
-		</div>
-  	</a>
-  </div>
-	
-  <!-- 主容器部分 -->
-  <div id="container">
-	
+	<!-- 左上角简历 -->
+	<div id="resume">
+		<a href="#">
+			<img src="images/person.jpg" alt="" width="70">
+			<div class="my_resume">
+				<span>Axis</span>
+				<i>'s resume</i>
+			</div>
+		</a>
+	</div>
+
+	<!-- 主容器部分 -->
+	<div id="container">
+
 		<!-- 第一屏 -->
-	<div class="section screen01 active">
-		<div class="content01 w">
-			<h2>Hello , I'm Axis</h2>
-			<p>Life doesn't get easier,you just get stronger.</p>
-			<p>您好，我叫<i>施国梁</i></p>
-			<p>一名前端技术热爱者</p>
-			<p><span>Tips</span>:试试把鼠标放在我的名字上</p>
-		</div>
-	</div>	
-
-		<!-- 第二屏 -->
-	<div class="section screen02">
-		<div class="slide">	
-			<div id="slide01">
-				<img src="images/timg.jpg" alt="">
-				<p class="">您好，我叫施国梁，现居长沙。我并不是计算机专业,但对前端很感兴趣，所以自学前端，今后的职业规划是朝着全栈发展。目前在学Vue.js、PHP,写过多个静态页面，响应式页面，JS原生小Demo等。小的来说，个人网站，商城，企业网站等都有涉及。</p>
-				<p class="">不浮躁，喜欢前端，执行力，学习能力都棒棒哒！目前，能做点粗糙设计（比如本网站）</p>
+		<div class="section screen01 active">
+			<div class="content01 w">
+				<h2>Hello , I'm Axis</h2>
+				<p>Life doesn't get easier,you just get stronger.</p>
+				<p>您好，我叫<i>施国梁</i></p>
+				<p>一名前端工程师助理</p>
+				<p><span>Tips</span>:试试把鼠标放在我的名字上</p>
 			</div>
 		</div>
-			
-        <div class="slide">
-        </div>
-        <div class="slide">
-        </div>
-        <div class="slide">
-        </div>
-	</div>
+
+		<!-- 第二屏 -->
+		<div class="section screen02">
+			<div class="slide">
+				<div id="slide01">
+					<img src="images/timg.jpg" alt="">
+					<p class="">
+						您好，我叫施国梁，现居长沙。我是电子信息专业,但对前端很感兴趣，所以自学前端，今后的职业规划是朝着全栈发展。目前在学Vue.js、PHP,写过多个静态页面，响应式页面，JS原生小Demo等。小的来说，个人网站，商城，企业网站等都有涉及。
+					</p>
+					<p class="">不浮躁，喜欢前端，执行力，学习能力都棒棒哒！目前，能做点粗糙设计（比如本网站）</p>
+				</div>
+			</div>
+
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+			<div class="slide">
+			</div>
+		</div>
 
 		<!-- 第三屏 -->
-  <div class="section screen03">
-		<div class="conten03">
-		  <h2>My Skills Bar</h2>
-		  <input type="button" value="点击查看" id="checkskill">
- 		  <div class="skillbar clearfix " data-percent="80%">
- 			<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
- 			<div class="skillbar-bar" style="background: #e67e22;"></div>
- 			<div class="skill-bar-percent">80%</div>
-  		 </div> <!-- End Skill Bar -->
+		<div class="section screen03">
+			<div class="conten03">
+				<h2>My Skills Bar</h2>
+				<input type="button" value="点击查看" id="checkskill">
+				<div class="skillbar clearfix " data-percent="80%">
+					<div class="skillbar-title" style="background: #d35400;"><span>HTML</span></div>
+					<div class="skillbar-bar" style="background: #e67e22;"></div>
+					<div class="skill-bar-percent">80%</div>
+				</div> <!-- End Skill Bar -->
 
-  		  <div class="skillbar clearfix " data-percent="70%">
-		  	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-		  	<div class="skillbar-bar" style="background: #3498db;"></div>
-		  	<div class="skill-bar-percent">70%</div>
- 		   </div> <!-- End Skill Bar -->
+				<div class="skillbar clearfix " data-percent="70%">
+					<div class="skillbar-title" style="background: #2980b9;"><span>CSS</span></div>
+					<div class="skillbar-bar" style="background: #3498db;"></div>
+					<div class="skill-bar-percent">70%</div>
+				</div> <!-- End Skill Bar -->
 
- 		   <div class="skillbar clearfix " data-percent="60%">
-		  	 <div class="skillbar-title" style="background: deeppink;"><span>jQuery</span></div>
-		  	 <div class="skillbar-bar" style="background: deeppink;"></div>
-		  	 <div class="skill-bar-percent">60%</div>
- 		   </div> <!-- End Skill Bar -->
- 
-  		  <div class="skillbar clearfix " data-percent="60%">
-		  	<div class="skillbar-title" style="background: #46465e;"><span>Javascript</span></div>
-		  	<div class="skillbar-bar" style="background: #5a68a5;"></div>
-		  	<div class="skill-bar-percent">60%</div>
- 		   </div> <!-- End Skill Bar -->
+				<div class="skillbar clearfix " data-percent="60%">
+					<div class="skillbar-title" style="background: deeppink;"><span>Javascript</span></div>
+					<div class="skillbar-bar" style="background: deeppink;"></div>
+					<div class="skill-bar-percent">60%</div>
+				</div> <!-- End Skill Bar -->
 
-		  <div class="skillbar clearfix " data-percent="50%">
-			<div class="skillbar-title" style="background: #27ae60 ;"><span>Bootstrap</span></div>
-			<div class="skillbar-bar" style="background: #2ecc71 ;"></div>
-			<div class="skill-bar-percent">50%</div>
-		  </div> <!-- End Skill Bar -->
+				<div class="skillbar clearfix " data-percent="60%">
+					<div class="skillbar-title" style="background: #46465e;"><span>jQuery</span></div>
+					<div class="skillbar-bar" style="background: #5a68a5;"></div>
+					<div class="skill-bar-percent">60%</div>
+				</div> <!-- End Skill Bar -->
 
-		  <div class="skillbar clearfix " data-percent="40%">
-			<div class="skillbar-title" style="background: #333333 ;"><span>Ajax</span></div>
-			<div class="skillbar-bar" style="background:  #525252;"></div>
-			<div class="skill-bar-percent">40%</div>
- 		  </div> <!-- End Skill Bar -->
+				<div class="skillbar clearfix " data-percent="50%">
+					<div class="skillbar-title" style="background: #27ae60 ;"><span>Vue</span></div>
+					<div class="skillbar-bar" style="background: #2ecc71 ;"></div>
+					<div class="skill-bar-percent">50%</div>
+				</div> <!-- End Skill Bar -->
 
-	 	  <div class="skillbar clearfix " data-percent="40%">
-		 	<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
-		 	<div class="skillbar-bar" style="background: #4288d0;"></div>
-		 	<div class="skill-bar-percent">40%</div>
-	 	  </div> <!-- End Skill Bar -->
-	 
-		 	<div style="text-align:center;clear:both;"></div>
+				<div class="skillbar clearfix " data-percent="40%">
+					<div class="skillbar-title" style="background: #333333 ;"><span>Ajax</span></div>
+					<div class="skillbar-bar" style="background:  #525252;"></div>
+					<div class="skill-bar-percent">40%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="40%">
+					<div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+					<div class="skillbar-bar" style="background: #4288d0;"></div>
+					<div class="skill-bar-percent">40%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div style="text-align:center;clear:both;"></div>
+			</div>
 		</div>
-	</div>
-			
+
 
 		<!-- 第四屏 -->
-	<div class="section screen04">
-		<div class="content04">
-			<h3>我的经历</h3>
-			<div class="exp">
-			  <div class="exp1">
-				<h4>湖南懒猫国际旅行社有限公司（2016-至今）</h4>
-				<input type="button" value="1">
-				<span><境外导游、售后公关，技术开发></span><br>
-				<p>负责带团一日游出海行程（游艇、帆船); 对接客诉需求,协商沟通处理方案; 6月份开始自学前端;</p><br>
-			  </div>
-			  <div class="exp2">
-				<h4>衡阳泰豪通信科技车辆有限公司 （2014-2016）</h4>
-				<input type="button" value="2">
-				<span><质检、技术设计、产品培训></span>
-				<p>负责成品通信性能检验；参与内外电路布局和设计；对接部队培训需求，提供技术支持。</p><br>
-			  </div>
-			  <div class="exp3">
-				<h4>毕业于南华大学 (2010-2014)</h4>
-				<input type="button" value="3">
-				<span><本科></span><br>
-				<p>取得电子信息工程学士学位、英语六级证书</p>
-			  </div>
-			  </div>
+		<div class="section screen04">
+			<div class="content04">
+				<h3>我的经历</h3>
+				<div class="exp">
+					<div class="exp1">
+						<h4>湖南懒猫国际旅行社有限公司（2016-至今）</h4>
+						<input type="button" value="1">
+						<span>
+							<境外导游、售后公关，技术开发>
+						</span><br>
+						<p>18年5月份开始自学前端；19年进入公司技术部实习；协助前端工程师维护公司内部系统</p><br>
+					</div>
+					<div class="exp2">
+						<h4>衡阳泰豪通信科技车辆有限公司 （2014-2016）</h4>
+						<input type="button" value="2">
+						<span>
+							<质检、技术设计、产品培训>
+						</span>
+						<p>负责成品通信性能检验；参与内外电路布局和设计；对接部队培训需求，提供技术支持。</p><br>
+					</div>
+					<div class="exp3">
+						<h4>毕业于南华大学 (2010-2014)</h4>
+						<input type="button" value="3">
+						<span>
+							<本科>
+						</span><br>
+						<p>取得电子信息工程学士学位、英语六级证书</p>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-		
+
 
 		<!-- 第五屏 -->
-	<div class="section screen05">
-		<div class="content05">
-			<h4>做过的小Demo，更多案例，请移步github --------<a href="https://github.com/AXIS111" target="_blank">AXIS111</a></h4>
-			<div class="xinxi_solution_main">
-        <div class="xinxi_solution_bg">
-            <div class="main_mobile">
-                <ul>
-                    <li class="one on">
-                        <div class="left"></div>
-                        <div class="left_top">
-                            <i>英雄联盟相册</i><img src="images/button1.png" alt="工业">
-                        </div>
-                        <div class="right">
-                            <dl><img src="images/lol.png" alt=""  height="400"></dl>
-                        </div>
-                    </li>
-                    <li class="one">
-                        <div class="left"></div>
-                        <div class="left_top">
-                            <i>京东静态首页</i><img src="images/button1.png" alt="工业">
-                        </div>
-                        <div class="right">
-                            <dl style="margin-top: -120px;">
-                            	<img src="images/jingdong.png" alt=""  height="400">
-                            </dl>
-                        </div>
-                    </li>
-                    <li class="one">
-                        <div class="left"></div>
-                        <div class="left_top">
-                            <i>原生JS计算器</i><img src="images/button1.png" alt="工业">
-                        </div>
-                        <div class="right">
-                            <dl><img src="images/caculator.png" alt="" height="400"></dl>
-                        </div>
-                    </li>
-                    <li class="one">
-                        <div class="left"></div>
-                        <div class="left_top">
-                            <i>JQ简单购物车</i><img src="images/button1.png" alt="工业">
-                        </div>
-                        <div class="right">
-                            <dl><img src="images/shopcar.png" alt="" height="400"></dl>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+		<div class="section screen05">
+			<div class="content05">
+				<h4>做过的小Demo，更多案例，请移步github --------<a href="https://github.com/AXIS111" target="_blank">AXIS111</a></h4>
+				<div class="xinxi_solution_main">
+					<div class="xinxi_solution_bg">
+						<div class="main_mobile">
+							<ul>
+								<li class="one on">
+									<div class="left"></div>
+									<div class="left_top">
+										<i>中远实业有限公司</i><img src="images/button1.png" alt="工业">
+									</div>
+									<div class="right">
+										<dl><img src="images/zhongyuan.png" alt="" height="400"></dl>
+									</div>
+								</li>
+								<li class="one">
+									<div class="left"></div>
+									<div class="left_top">
+										<i>装小蜜移动web</i><img src="images/button1.png" alt="工业">
+									</div>
+									<div class="right">
+										<dl style="margin-top: -120px;">
+											<img src="images/zhuangxiaomi.png" alt="" height="400">
+										</dl>
+									</div>
+								</li>
+								<li class="one">
+									<div class="left"></div>
+									<div class="left_top">
+										<i>Pos收银模块</i><img src="images/button1.png" alt="工业">
+									</div>
+									<div class="right">
+										<dl><img src="images/pos.png" alt="" height="400"></dl>
+									</div>
+								</li>
+								<li class="one">
+									<div class="left"></div>
+									<div class="left_top">
+										<i>云道商城</i><img src="images/button1.png" alt="工业">
+									</div>
+									<div class="right">
+										<dl><img src="images/yundao.jpg" alt="" height="400"></dl>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>	
 
 
 		<!-- 第六屏 -->
-	<div class="section screen06">
-		<div class="content06">
-			<h3>CONTACT <span>ME</span></h3>
-			<div class="line"></div>
-		 	<div class="keywords">
-		 		<span>灵感</span> <span>代码</span><span>梦想</span> <span>未来</span>
-		 	</div>
-		 	<div class="thoughts">
-				<p>	
-					<p>学习是一个充实愉悦的过程<br></p>
-					<p>喜欢尝试，期待新鲜事物<br></p>
-					<p>前端即兴趣，兴趣即未来<br></p>
-					<p>行路有良友，便是捷径<br></p>
-					<p>期待有机会与您共事！<br></p>
-				</p>
-			</div>
-			<ul class="contact">
+		<div class="section screen06">
+			<div class="content06">
+				<h3>CONTACT <span>ME</span></h3>
+				<div class="line"></div>
+				<div class="keywords">
+					<span>灵感</span> <span>代码</span><span>梦想</span> <span>未来</span>
+				</div>
+				<div class="thoughts">
+					<p>
+						<p>学习是一个充实愉悦的过程<br></p>
+						<p>喜欢尝试，期待新鲜事物<br></p>
+						<p>前端即兴趣，兴趣即未来<br></p>
+						<p>行路有良友，便是捷径<br></p>
+						<p>期待有机会与您共事！<br></p>
+					</p>
+				</div>
+				<ul class="contact">
 					<li>
 						<div class="pic1">
 							<img src="images/github.png" alt="" width="180">
-						</div>	
+						</div>
 					</li>
 					<li>
 						<div class="pic1">
@@ -243,15 +253,15 @@
 							<img src="images/weibo.png" alt="" width="180">
 						</div>
 					</li>
-			</ul>	
+				</ul>
+			</div>
 		</div>
-	</div>	
-		
-  </div>
 
-	
+	</div>
+
+
 	<!-- 公共部分 -->
-	
+
 
 	<!-- 顶部导航部分 -->
 	<nav class="nav">
@@ -259,27 +269,28 @@
 		<div class="nav__content">
 			<div class="shownav"><span>导</span><span>航</span></div>
 			<ul id="menu">
-    			<li data-menuanchor='page1' class="nav__item">
-        			<a href="#page1" class="nav__item-text">首页</a>
-    			</li>
-    			<li data-menuanchor='page2' class="nav__item">
-        			<a href="#page2" class="nav__item-text">关于我</a>
-    			</li>
-    			<li data-menuanchor='page3' class="nav__item">
-    			    <a href="#page3" class="nav__item-text">技能掌握</a>
-    			</li>
-    			<li data-menuanchor='page4' class="nav__item">
-    			    <a href="#page4" class="nav__item-text">我的经历</a>
-    			</li>
-    			<li data-menuanchor='page5' class="nav__item">
-    			    <a href="#page5" class="nav__item-text">我的作品</a>
-    			</li>
-    			<li data-menuanchor='page6' class="nav__item">
-    			    <a href="#page6" class="nav__item-text">联系我</a>
-    			</li>
+				<li data-menuanchor='page1' class="nav__item">
+					<a href="#page1" class="nav__item-text">首页</a>
+				</li>
+				<li data-menuanchor='page2' class="nav__item">
+					<a href="#page2" class="nav__item-text">关于我</a>
+				</li>
+				<li data-menuanchor='page3' class="nav__item">
+					<a href="#page3" class="nav__item-text">技能掌握</a>
+				</li>
+				<li data-menuanchor='page4' class="nav__item">
+					<a href="#page4" class="nav__item-text">我的经历</a>
+				</li>
+				<li data-menuanchor='page5' class="nav__item">
+					<a href="#page5" class="nav__item-text">我的作品</a>
+				</li>
+				<li data-menuanchor='page6' class="nav__item">
+					<a href="#page6" class="nav__item-text">联系我</a>
+				</li>
 			</ul>
-			</div>
+		</div>
 		<label class="nav__btn" for="menu-cb"></label>
 	</nav>
 </body>
+
 </html>
